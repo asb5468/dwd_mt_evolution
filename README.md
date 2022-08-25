@@ -1,5 +1,5 @@
-This repo contains code for evolving double white dwarf systems according to the prescription in [Marsh et. al 2004](https://academic.oup.com/mnras/article/350/1/113/986306) as implemented in Biscoveanu, Kremer, and Thrane 2022.
-The script `integrate.py` contains all the functions governing the evolution of the system, like tides, mass transfer, and gravitational radiation. This can be run using `evolve_nosync.py` as follows:
+This repo contains code for evolving double white dwarf systems according to the prescription in [Marsh et. al 2004](https://academic.oup.com/mnras/article/350/1/113/986306) as implemented in [Biscoveanu, Kremer, and Thrane 2022](https://arxiv.org/abs/2206.15390).
+The script `integrate.py` contains all the functions governing the evolution of the system, including the effects of tides, mass transfer, and gravitational radiation. This can be run using `evolve_nosync.py` as follows:
 ```
 python evolve_nosync.py donor_mass accretor_mass tau0 basedir 
 ```
